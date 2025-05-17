@@ -69,13 +69,15 @@ package.json
 
 2. **Setup backend:**
 cd server
+
 npm install
 
-3. **Setup FrontEnd:**
+4. **Setup FrontEnd:**
 cd ../client
+
 npm install
 
-4. **Configure environment variables:**
+6. **Configure environment variables:**
 
 Create a .env file inside the server folder with:
 
@@ -87,11 +89,13 @@ JWT_SECRET=your_jwt_secret_key
 5. **Run Backend:**
 
    cd ../server
+   
    npm start
 
-6. **Run FrontEnd:**
+7. **Run FrontEnd:**
 
    cd ../client
+   
    npm start
 
 ## API Documentation (Summary)
